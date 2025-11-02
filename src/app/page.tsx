@@ -63,7 +63,7 @@ export default function Home() {
       difficulty: "Moderate",
       rating: 5,
       price: "$2,499",
-      image: "/images/canada-attractions/aurora.jpg",
+      image: "/images/canada-attractions/newfoundland-coastal.jpg",
       highlights: ["Aurora viewing", "Dog sledding", "Ice fishing", "Cultural immersion"],
       season: "Winter"
     },
@@ -74,7 +74,7 @@ export default function Home() {
       difficulty: "Challenging",
       rating: 5,
       price: "$1,899",
-      image: "/images/canada-attractions/rockies.jpg",
+      image: "/images/canada-attractions/rockies-mountains.jpg",
       highlights: ["Summit hikes", "Wildlife viewing", "Hot springs", "Photography"],
       season: "Summer"
     },
@@ -85,7 +85,7 @@ export default function Home() {
       difficulty: "Easy",
       rating: 5,
       price: "$2,299",
-      image: "/images/canada-attractions/newfoundland.jpg",
+      image: "/images/canada-attractions/newfoundland-coastal.jpg",
       highlights: ["Whale watching", "Iceberg tours", "Fishing villages", "Local cuisine"],
       season: "Summer"
     }
@@ -98,7 +98,7 @@ export default function Home() {
       rating: 5,
       text: "Robin's insights turned our Banff trip from a vacation into a life-changing experience. The hidden gems and local knowledge made all the difference in connecting with Canada's true spirit.",
       trip: "Banff Adventure",
-      image: "/images/testimonials/sarah.jpg"
+      image: "/images/canada-attractions/robin-professional.jpg"
     },
     {
       name: "Marcus Johnson",
@@ -106,7 +106,7 @@ export default function Home() {
       rating: 5,
       text: "The Northern Lights tour exceeded all expectations. Robin's connections with local Inuit guides provided authentic cultural experiences we couldn't have found elsewhere.",
       trip: "Yukon Aurora",
-      image: "/images/testimonials/marcus.jpg"
+      image: "/images/canada-attractions/rockies-mountains.jpg"
     },
     {
       name: "Elena Rodriguez",
@@ -114,7 +114,7 @@ export default function Home() {
       rating: 5,
       text: "From planning to execution, everything was perfect. The sustainable approach and respect for local communities made this trip truly meaningful.",
       trip: "East Coast Discovery",
-      image: "/images/testimonials/elena.jpg"
+      image: "/images/canada-attractions/toronto-urban.jpg"
     }
   ]
 
@@ -124,7 +124,7 @@ export default function Home() {
       excerpt: "Discover 15 breathtaking waterfalls off the beaten path, from the thundering cascades of Algoma to the serene falls of the Canadian Shield.",
       readTime: "8 min read",
       category: "Nature",
-      image: "/images/blog/waterfalls.jpg",
+      image: "/images/canada-attractions/waterfall-hero.jpg",
       date: "Dec 15, 2024"
     },
     {
@@ -132,7 +132,7 @@ export default function Home() {
       excerpt: "Learn about responsible travel practices and how to engage meaningfully with Indigenous communities across Canada's diverse cultures.",
       readTime: "12 min read",
       category: "Culture",
-      image: "/images/blog/indigenous.jpg",
+      image: "/images/canada-attractions/robin-professional.jpg",
       date: "Dec 10, 2024"
     },
     {
@@ -140,7 +140,7 @@ export default function Home() {
       excerpt: "Master the art of aurora photography with pro tips, equipment recommendations, and the best locations across Canada's North.",
       readTime: "15 min read",
       category: "Photography",
-      image: "/images/blog/aurora.jpg",
+      image: "/images/canada-attractions/newfoundland-coastal.jpg",
       date: "Dec 5, 2024"
     }
   ]
@@ -683,7 +683,7 @@ export default function Home() {
             <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="relative h-48">
                 <Image
-                  src="/images/blog/sustainable.jpg"
+                  src="/images/canada-attractions/toronto-urban.jpg"
                   alt="Sustainable Tourism in Canada"
                   fill
                   className="object-cover"
